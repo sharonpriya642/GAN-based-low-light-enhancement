@@ -10,20 +10,39 @@ The enhanced results are evaluated using both quantitative metrics and visual co
 
 🚀 Models Used
 
--EnlightenGAN
-     Unsupervised GAN-based model
-     Learns illumination correction without paired ground-truth images
-     Produces natural and balanced enhancement
--Zero-DCE++
-     Lightweight deep curve estimation model
-     Does not require reference images
-     Suitable for real-time and low-compute environments
--CLAHE (Baseline)
-     Traditional image enhancement technique
-     Used for comparison with deep learning models
-📂 Dataset
-     LOL (Low-Light) Dataset
-     Contains real-world low-light images
-     Widely used benchmark for low-light image enhancement
+EnlightenGAN
+
+Unsupervised GAN-based model
+
+Learns illumination correction without paired ground-truth images
+
+Produces natural and balanced enhancement
+
+Zero-DCE++
+
+Lightweight deep curve estimation model
+
+Does not require reference images
+
+Suitable for real-time and low-compute environments
+
+CLAHE (Baseline)
+
+Traditional image enhancement technique
+
+Used for comparison with deep learning models
+
+
+
+📊 Evaluation Metrics
+
+PSNR (Peak Signal-to-Noise Ratio)
+Measures reconstruction quality (higher is better)
+
+SSIM (Structural Similarity Index)
+Measures structural similarity (closer to 1 is better)
+
+NIQE (Natural Image Quality Evaluator)
+No-reference image quality metric (lower is better)
 
 
